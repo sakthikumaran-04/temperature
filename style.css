@@ -1,0 +1,54 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#container{
+  min-height:100vh;
+  width:100%;
+  background-image:url('background.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+#wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  border:1px solid black;
+  width:80%;
+  padding:50px;
+  text-align:center;
+  border-radius :10px;
+  backdrop-filter:blur(30px);
+  background-size:cover;
+}
+h2, label, button, input{
+  margin:8px;
+}
+input{
+  padding:10px;
+  border-radius:10px;
+}
+button{
+  padding:15px;
+  border-radius :10px;
+  border :1px solid blue;
+  background-color:#4a7dff;
+}
+#output{
+  border:1px solid blue;
+  padding:8px;
+  width:250px;
+  border-radius :15px;
+  transition:3s;
+}
+select{
+  padding:10px;
+  border-radius :10px;
+}
